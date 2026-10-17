@@ -1,0 +1,10 @@
+{
+    "admin/nas/n1filemgr": {
+        "title": "文件管理器",
+        "order": 30,
+        "action": {
+            "type": "view",
+            "path": "nas/n1filemgr2"
+        }
+    }
+}

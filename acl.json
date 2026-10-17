@@ -1,0 +1,15 @@
+{
+    "luci-app-n1filemgr": {
+        "description": "Grant access to N1 文件管理器",
+        "read": {
+            "ubus": {
+                "file": ["*"]
+            }
+        },
+        "write": {
+            "ubus": {
+                "file": ["*"]
+            }
+        }
+    }
+}

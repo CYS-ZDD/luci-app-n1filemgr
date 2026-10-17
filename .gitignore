@@ -1,0 +1,22 @@
+# 打包产物
+*.ipk
+*.tar.gz
+
+# 内部部署/诊断脚本（可能含个人凭据，禁止提交）
+_*.py
+_*.html
+_*.png
+_*.lua
+deploy*.py
+*_deploy*.py
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+
+# 编辑器 / 系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
